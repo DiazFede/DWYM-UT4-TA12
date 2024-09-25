@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { createContext, useState } from 'react';
 
-// Crear el contexto del usuario
+// contexto del usuario
 export const UserContext = createContext();
 
 export const UserProvider = ({ children }) => {
